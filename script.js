@@ -19,10 +19,10 @@ document.getElementById('button').addEventListener('click', function () {
         'Rasengan', 'Chidori', 'Kalen Khon-quan', 'Katak Guntur', 'Bebek Pelangi', 'Kambing Awan',
         'Kecoa berponi', 'Kumbang Komet', 'Asbes', 'Singa Laut Galaksi', 'IMie ayam', 'Banteng Petir',
         'Honda varop', 'Rokok monte carlo', 'Mantan anda sendiri', 'Yajuj majuj', 'Terompet sangkakala', 'Belut', 'Ultramen', 'Ironman', 'Batman', 'Bayem', 'Singkong',
-        'Singa pengkor', 'Celana jeans', 'Tikus jalanan', 'Ikan teri', 'Ikan lele', 'Ikan cere', 'Oppa korea', 'Keripik singkong',
-        'Cassan Thinkpad', 'Syntax Java', 'Bebek racing', 'Honda megapro', 'Jemuran emak', 'Kangkung', 'kupu'
+        'Singa pengkor', 'Celana jeans', 'Tikus jalanan', 'Ikan teri', 'Ikan lele', 'Ikan cere', 'Oppa korea', 'Keripik singkong', 'Padil kopling', 'Hp advan', 'Kalajengking kayang', 'Doraemon', 'Asep britden', 'Jael pargoy',
+        'Cassan Thinkpad', 'Syntax Java', 'Bebek racing', 'Honda megapro', 'Jemuran emak', 'Kangkung', 'kupu',
+        'Sigit rendang', 'Slamet kopling', 'Singa putih', 'Harimau albino', 'Tali rapia', 'Sundel bolong', 'Jambu aer'
     ];
-
     if (birthDate) {
         const arrayKodam = parseInt(birthDate.replace(/-/g, '').slice(4, 8), 10) % kodamaArray.length;
         const kodam = kodamaArray[arrayKodam];
