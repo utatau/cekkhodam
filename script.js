@@ -7,13 +7,8 @@ document.getElementById('button').addEventListener('click', function () {
     if (!nama) {
         Swal.fire({
             icon: 'hasil cek',
-<<<<<<< HEAD
-            title: '!',
-            text: 'Masukin dulu namalu'
-=======
             title: 'jangan di kosongin',
             text: 'masukin dulu namalu'
->>>>>>> 5b55d8f38a265413a27bd54122e4308762ce7cc5
         });
         return;
     }
