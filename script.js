@@ -7,7 +7,7 @@ document.getElementById('button').addEventListener('click', function () {
     if (!nama) {
         Swal.fire({
             icon: 'hasil cek',
-            title: 'dongo',
+            title: '!',
             text: 'Masukin dulu namalu'
         });
         return;
